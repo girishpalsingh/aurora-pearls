@@ -9,10 +9,10 @@ export default function Navbar() {
         </Link>
         <div className="hidden md:flex space-x-8 text-sm font-sans tracking-wide text-white/90">
           <Link href="/" className="hover:text-white transition-colors">HOME</Link>
+          <Link href="/about" className="hover:text-white transition-colors">ABOUT US</Link>
           <Link href="/shop" className="hover:text-white transition-colors">SHOP</Link>
           <Link href="/history" className="hover:text-white transition-colors">HISTORY</Link>
           <Link href="/journey" className="hover:text-white transition-colors">OUR JOURNEY</Link>
-          <Link href="/special" className="hover:text-white transition-colors">SPECIAL</Link>
         </div>
         <div className="flex items-center space-x-4">
           {/* Cart Icon Placeholder */}
