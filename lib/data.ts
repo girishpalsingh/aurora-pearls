@@ -1,0 +1,181 @@
+import { PearlProduct } from './types';
+
+export const products: PearlProduct[] = [
+  // Necklaces
+  {
+    id: 'n1',
+    name: 'The Imperial Akoya Strand',
+    price: 1250,
+    category: 'Pearl Necklaces',
+    image_url: '/necklace.png',
+    description: 'A classic 18-inch strand of perfectly matched Japanese Akoya pearls.',
+  },
+  {
+    id: 'n2',
+    name: 'Tahitian Midnight Pendant',
+    price: 890,
+    category: 'Pearl Necklaces',
+    image_url: '/tahitian-pendant.png',
+    description: 'A single, stunning dark Tahitian pearl set on an 18k white gold chain.',
+  },
+  {
+    id: 'n3',
+    name: 'South Sea Golden Aura',
+    price: 3400,
+    category: 'Pearl Necklaces',
+    image_url: '/south-sea-aura.png',
+    description: 'Magnificent golden South Sea pearls radiating warmth and luxury.',
+  },
+  {
+    id: 'n4',
+    name: 'Baroque Pearl Choker',
+    price: 650,
+    category: 'Pearl Necklaces',
+    image_url: '/baroque-choker.png',
+    description: 'Unique, irregularly shaped baroque pearls forming a modern choker.',
+  },
+  {
+    id: 'n5',
+    name: 'Freshwater Triple Strand',
+    price: 450,
+    category: 'Pearl Necklaces',
+    image_url: '/freshwater-triple-strand.png',
+    description: 'Three cascading strands of lustrous white freshwater pearls.',
+  },
+
+  // Earrings
+  {
+    id: 'e1',
+    name: 'Classic Akoya Studs',
+    price: 320,
+    category: 'Pearl Earrings',
+    image_url: '/earrings.png',
+    description: 'Essential 8mm Akoya pearl studs with 14k gold backings.',
+  },
+  {
+    id: 'e2',
+    name: 'Diamond & South Sea Drops',
+    price: 1850,
+    category: 'Pearl Earrings',
+    image_url: '/south-sea-drops.png',
+    description: 'White South Sea pearls suspended from brilliant diamond accents.',
+  },
+  {
+    id: 'e3',
+    name: 'Tahitian Eclipse Hoops',
+    price: 780,
+    category: 'Pearl Earrings',
+    image_url: '/tahitian-hoops.png',
+    description: 'Modern gold hoops featuring floating dark Tahitian pearls.',
+  },
+  {
+    id: 'e4',
+    name: 'Baroque Pearl Chandeliers',
+    price: 920,
+    category: 'Pearl Earrings',
+    image_url: '/baroque-chandeliers.png',
+    description: 'Statement chandelier earrings with cascading baroque pearls.',
+  },
+  {
+    id: 'e5',
+    name: 'Freshwater Cluster Huggies',
+    price: 240,
+    category: 'Pearl Earrings',
+    image_url: '/freshwater-huggies.png',
+    description: 'Delicate huggie hoops adorned with clusters of tiny freshwater pearls.',
+  },
+
+  // Bracelets
+  {
+    id: 'b1',
+    name: 'Akoya Pearl & Silk Bracelet',
+    price: 480,
+    category: 'Pearl Bracelets',
+    image_url: '/akoya-bracelet.png',
+    description: 'A delicate strand of Akoya pearls on a durable silk thread with gold clasp.',
+  },
+  {
+    id: 'b2',
+    name: 'Golden Pearl Cuff',
+    price: 2100,
+    category: 'Pearl Bracelets',
+    image_url: '/golden-cuff.png',
+    description: 'A structural 18k gold cuff finished with two golden South Sea pearls.',
+  },
+  {
+    id: 'b3',
+    name: 'Tahitian Leather Wrap',
+    price: 350,
+    category: 'Pearl Bracelets',
+    image_url: '/tahitian-leather-wrap.png',
+    description: 'Casual yet sophisticated dark pearls woven into premium leather.',
+  },
+  {
+    id: 'b4',
+    name: 'Vintage Pearl Station Bracelet',
+    price: 670,
+    category: 'Pearl Bracelets',
+    image_url: '/vintage-pearl-station.png',
+    description: 'Pearls evenly spaced along a delicate 14k gold chain.',
+  },
+  {
+    id: 'b5',
+    name: 'Freshwater Multi-Row Bangle',
+    price: 520,
+    category: 'Pearl Bracelets',
+    image_url: '/freshwater-multi-bangle.png',
+    description: 'A wide bangle featuring multiple rows of lustrous freshwater pearls.',
+  },
+
+  // Rings
+  {
+    id: 'r1',
+    name: 'South Sea Solitaire Ring',
+    price: 1450,
+    category: 'Pearl Rings',
+    image_url: '/ring.png',
+    description: 'A flawless white South Sea pearl mounted on a simple platinum band.',
+  },
+  {
+    id: 'r2',
+    name: 'Tahitian Diamond Halo',
+    price: 2200,
+    category: 'Pearl Rings',
+    image_url: '/tahitian-halo.png',
+    description: 'A dramatic dark pearl surrounded by a halo of pave diamonds.',
+  },
+  {
+    id: 'r3',
+    name: 'Akoya Twin Ring',
+    price: 890,
+    category: 'Pearl Rings',
+    image_url: '/akoya-twin-ring.png',
+    description: 'Two perfectly matched Akoya pearls in a modern bypass design.',
+  },
+  {
+    id: 'r4',
+    name: 'Golden Pearl Cocktail Ring',
+    price: 3100,
+    category: 'Pearl Rings',
+    image_url: '/golden-cocktail-ring.png',
+    description: 'A massive, breathtaking golden pearl set in an intricate gold framework.',
+  },
+  {
+    id: 'r5',
+    name: 'Freshwater Floral Band',
+    price: 410,
+    category: 'Pearl Rings',
+    image_url: '/freshwater-floral-band.png',
+    description: 'Small pearls integrated into a beautifully engraved floral ring.',
+  },
+  
+  // Hair Accessories
+  {
+    id: 'h1',
+    name: 'Bridal Pearl Hairpiece',
+    price: 550,
+    category: 'Pearl Hair Accessories',
+    image_url: '/hairpiece.png',
+    description: 'An intricate and beautiful pearl hair accessory for special occasions.',
+  }
+];
